@@ -1,5 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
+/* The * over writes default padding, border, margin*/
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body {
+    /* look up a NEW FONT */
+    font-family: 'Lato', sans-serif;
+    font-weight: 300px;
+}
+
+header a, .socials {
+    text-decoration: none;
+    color: orange;
+}
+
 h1 {
-    color: blueviolet;
+    color: #ED462F;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
 }
 
 .main {
@@ -8,10 +31,6 @@ h1 {
 
 .main li {
     display: inline;
-}
-
-.main a {
-    text-decoration: none;
 }
 
 .main a:hover {
