@@ -1,39 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Slab:wght@300&display=swap');
 
-/* The * over writes default padding, border, margin*/
 * {
     padding: 0;
     margin: 0;
     border: none;
 }
-
 body {
-    /* look up a NEW FONT */
     font-family: 'Lato', sans-serif;
     font-weight: 300px;
 }
 
 header a, .socials {
     text-decoration: none;
-    color: orange;
 }
 
-h1 {
+#logo {
     color: #ED462F;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 35px;
+    font-size: 300%;
+
 }
 
-.main {
+#main {
+    margin-right: 35px;
+    letter-spacing: 2px;
+    font-size: 110%;
+    list-style: none;
     float: right;
+
 }
 
-.main li {
+#main li {
+    padding: 5px;
     display: inline;
+    
 }
 
-.main a:hover {
+#main a:hover {
     text-decoration: underline;  
 }
 
