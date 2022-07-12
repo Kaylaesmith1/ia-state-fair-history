@@ -22,6 +22,7 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #ED462F;
+    text-align: center;
 }
 
 #statefair {
@@ -119,11 +120,11 @@ h3 {
 }
 
 #left {
-    width: 33%;
-    height: 600px;
     padding-top: 30px;
     float: left;
-    background-color: green;
+    /* background-color: teal; */
+    width: 33%;
+
 }
 
 #dates {
@@ -132,5 +133,41 @@ h3 {
     line-height: 20px;   
     clear: both;
     margin-bottom: 50px;
-    background-color: blue;
+    /* background-color: orange; */
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.strong, #times {
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+#times, #activities li {
+    margin-bottom: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+#right {
+    padding-top: 30px;
+    float: right;
+    /* background-color: teal; */
+    width: 33%;
+}
+
+#activities {
+    float: left;
+    line-height: 20px;   
+    clear: both;
+    margin-bottom: 50px;
+    width: 60%;
+    /* background-color: orange; */
+
 }
