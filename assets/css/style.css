@@ -22,6 +22,7 @@ header a, .socials {
     font-family: 'Roboto Slab', serif;
     margin-left: 35px;
     font-size: 300%;
+    float: left;
 
 }
 
@@ -32,6 +33,9 @@ header a, .socials {
     list-style: none;
     float: right;
 
+}
+#main, #logo {
+    line-height: 75px;
 }
 
 #main li {
