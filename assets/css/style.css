@@ -14,7 +14,7 @@ header a, .socials {
     text-decoration: none;
 }
 
-#logo {
+#statefair {
     color: #ED462F;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -34,7 +34,7 @@ header a, .socials {
     float: right;
 
 }
-#main, #logo {
+#main, #statefair {
     line-height: 75px;
 }
 
@@ -50,4 +50,58 @@ header a, .socials {
 
 #active {
     text-decoration: underline;  
+}
+
+/* State fair background and fair logo image */
+#faircrowd {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#logo {
+    height: 600px;
+    width: 100%;
+    background: url('../images/iowa_state_fair.webp') no-repeat center center;
+    background-size: cover;
+    
+    /* animate image to zoom in and stop not revert back*/
+    animation-name: faircrowd-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* background image zoom */
+@keyframes faircrowd-zoom {
+ from {transform: scale(1);
+} to {
+transform: scale(1.1);
+}
+}
+
+#join, #join h2 {
+    color: white;
+}
+
+#join {
+    font-family: 'Roboto Slab', serif;
+    font-size: 130%;
+    letter-spacing: 3px;
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    padding: 20px 0;
+    text-align: center;
+
+    /* use rgb values for color to INCLUDE OPACITY */
+    background-color: rgb(237, 70, 47, .75);
+    bottom: 40px;
+    right: 150px;
+    position: absolute;
+
+}
+
+h3 {
+    text-transform: uppercase;
 }
