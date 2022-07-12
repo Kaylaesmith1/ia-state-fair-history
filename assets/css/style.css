@@ -13,6 +13,9 @@ body {
 header a, .socials {
     text-decoration: none;
 }
+.active {
+    text-decoration: underline;
+}
 
 #statefair {
     color: #ED462F;
@@ -21,7 +24,7 @@ header a, .socials {
     text-decoration: none;
     font-family: 'Roboto Slab', serif;
     margin-left: 35px;
-    font-size: 300%;
+    font-size: 350%;
     float: left;
 
 }
@@ -41,11 +44,12 @@ header a, .socials {
 #main li {
     padding: 5px;
     display: inline;
-    
 }
 
+
 #main a:hover {
-    text-decoration: underline;  
+    text-decoration: underline; 
+    color: #ED462F;  
 }
 
 #active {
