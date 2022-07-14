@@ -71,8 +71,7 @@ h1, h2 {
 #logo {
     height: 600px;
     width: 100%;
-    background: url('../images/iowa_state_fair.webp') no-repeat center center;
-    background-size: cover;
+    background: url('../images/iowa_state_fair.webp') no-repeat center center / cover;
     
     /* animate image to zoom in and stop not revert back*/
     animation-name: faircrowd-zoom;
@@ -126,7 +125,7 @@ h4 {
 h3 {
     text-transform: uppercase;
 }
-#location {
+#when {
     text-align: center;
     font-size: 300%;
     margin: 30px 0 20px 0;
@@ -193,8 +192,29 @@ li {
 }
 
 #center-logo {
-    height: 300px;
+    height: 270px;
     width: 100%;
     background: url('../images/fair_logo.png') no-repeat center center; /*or find_fun pic */
     border-radius: 15px;
+}
+
+#location {
+    background: url('../images/dsm_capitol.jpeg') no-repeat center center / cover;
+    height: 500px;
+
+}
+
+/* #location{
+    background-color:rgb(58, 58, 58, .55);
+    height: 400px;
+    width: 100%;
+} */
+
+#transport-text {
+    float: right;
+    width: 60%;
+}
+
+iframe {
+    border-radius: 25px;
 }
