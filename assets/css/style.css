@@ -50,10 +50,14 @@ h1, h2 {
     display: inline;
 }
 
+#main a, footer i:hover {
+    color: #ED462F;
+}
 
 #main a:hover {
     text-decoration: underline; 
-    color: #ED462F;  
+    /* color: #ED462F;   */
+    color: #012169;
 }
 
 #active {
@@ -208,7 +212,7 @@ li {
 }
 
 #shadow {
-background-color: rgb(59, 62, 75, .55);
+background-color: rgb(59, 62, 75, .65);
 height: 500px;
 }
 
@@ -244,9 +248,24 @@ height: 500px;
 
 #map-heading {
     position: relative;
-    padding-top: 40px;
-    width: 40%;
+    padding-top: 20px;
+    width: 41%;
     float: right;
+}
+
+footer {
+    text-align: center;
+    font-size: 180%;
+}
+
+footer li {
+    display: inline;
+}
+footer i {
+    color: #012169;
+    margin: 2%;
+    padding-left: 10%;
+
 }
 
 
