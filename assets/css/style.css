@@ -171,7 +171,6 @@ li {
 #right {
     padding-top: 30px;
     float: right;
-    /* background-color: teal; */
     width: 33%;
 }
 
@@ -181,8 +180,11 @@ li {
     clear: both;
     margin-bottom: 50px;
     width: 60%;
-    /* background-color: orange; */
 
+}
+#activities li {
+    list-style-type: circle;
+    margin-left: 20px;
 }
 
 #center {
@@ -192,7 +194,7 @@ li {
 }
 
 #center-logo {
-    height: 270px;
+    height: 255px;
     width: 100%;
     background: url('../images/fair_logo.png') no-repeat center center; /*or find_fun pic */
     border-radius: 15px;
@@ -211,18 +213,41 @@ height: 500px;
 }
 
 #location-heading {
-    width: 100%;
+    width: 50%;
     float: left;
     padding: 0;
 }
 
-#shuttle {
-    background: url('../images/fair_shuttle.png') no-repeat center center;
-    
+#location-text h2 {
+    color: #ED462F;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255, .85);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 28px;
+}
+
+#location-text p {
+    background-color: rgb(237, 70, 47, .7);
+    color: white;
+    width: 60%;
+    margin-left: 60px;
+    margin-top: 45px;
+    padding: 35px 30px 25px 30px;
+    border-radius: 10px;
+    line-height: 25px;
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+
+#map-heading {
+    position: relative;
+    padding-top: 40px;
+    width: 40%;
+    float: right;
 }
 
 
-#map {
-    border-radius: 25px;
-    height: 100%;
-}
+
