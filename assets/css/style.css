@@ -291,3 +291,13 @@ footer i {
     border-radius: 15px;
     margin-left: 32px;
 }
+
+#images {
+    column-count: 3;
+    clear: both;
+    line-height: 1.5;
+    column-gap: 3px;
+    opacity: 0.5;
+
+}
+
