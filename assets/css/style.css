@@ -39,6 +39,7 @@ h1, h2 {
     font-size: 110%;
     list-style: none;
     float: right;
+    font-family: 'Roboto Slab', serif;
 
 }
 #main, #statefair {
@@ -168,7 +169,7 @@ hr {
     margin-bottom: 15px;
 }
 
-li {
+ul li {
     list-style: none;
 }
 
@@ -256,7 +257,7 @@ height: 500px;
 footer {
     text-align: center;
     font-size: 180%;
-    border: 3px solid #012169;;
+    border: 2px solid #012169;;
     width: 40%;
     margin: 15px auto;
     border-radius: 30px;
@@ -274,9 +275,15 @@ footer i {
 
 }
 
-/* #body-history {
-    background-color: rgb(1, 33, 105, .4);
-} */
+#involved-photo {
+    background: url('../images/your_fun_involvedpg.png');
+    background-repeat: round;
+    clear: both;
+}
+
+#involved-shadow {
+    background-color: rgb(59, 62, 75, .65);
+}
 
 #history {
     width: 100%;
@@ -284,8 +291,9 @@ footer i {
     float: right;
 }
 
+
 #history div {
-    background-color: yellow;
+    background-color: #44abc7;
     height: 450px;
     width: 22%;
     float: left;
@@ -296,6 +304,24 @@ footer i {
     margin: 40px 0;
     border-radius: 15px;
     margin-left: 32px;
+}
+
+#history #hist-food {
+    background-color: #69cb93;
+    height: 450px;
+    width: 22%;
+    float: left;
+    text-align: center;
+    border: 3px solid white;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 40px 0;
+    border-radius: 15px;
+    margin-left: 32px;
+}
+
+#history h2, #history p {
+    color: #002169;
 }
 
 #images {
@@ -311,17 +337,20 @@ footer i {
 .form {
     background-color: #fdd933;
     color: #ED462F;
-    margin-bottom: 50px;
     width: 50%;
     height: 40%;
     clear: both;
     margin-left: 32px;
+    /* margin: auto; */
     padding: 50px;
     border-radius: 35px;
+    border: 3px solid white;
+
 }
 
 .get-involved {
 margin-bottom: 20px;
+font-size: 27px;
 }
 
 form > label {
@@ -363,6 +392,8 @@ form > label {
     background-color: white;
     cursor: pointer;
 }
+
+
 
 
 
