@@ -297,7 +297,20 @@ footer i {
     clear: both;
     line-height: 1.5;
     column-gap: 3px;
-    opacity: 0.5;
+    /* opacity: 0.5; */
 
+    /*switch butter cow and corn dogs image */
+
+}
+
+.form {
+    background-color: yellow;
+    z-index: 100000;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#department {
+    border: 1px solid black;
 }
 
