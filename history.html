@@ -11,7 +11,6 @@
     <title>Iowa State Fair</title>
 </head>
 <body >
-    <!--Make the header sticky? Link in WhatsApp from Amanda-->
     <header>
         <a href="index.html">
         <h1 id="statefair">Iowa State Fair</h1>
@@ -36,6 +35,7 @@
             <div>
                 <h2>Fair History</h2>
                 <p>paragraph of fair history</p>
+                <p>dark blue text w white writing</p>
             </div>
             <div>
                 <h2>What's New</h2>
@@ -52,25 +52,36 @@
                 <p>paragraph of fun facts</p>
 
             </div>
-            <!-- <form class="form" action="#" method="get">
-    <h2>Get involved with the Iowa State Fair!</h2>
+            </section>
+
+
+            <section>
+            <div>
+            <form class="form" action="https://formdump.codeinstitute.net" method="post">
+    <h2 class="get-involved">Get involved with the Iowa State Fair!</h2>
     
-    <label for="dept">Select a department:</label>
-    <input type="text" list="depts" id="department" name="dept">
-    <datalist id="dept">
+    <label for="dept">Select a department</label>
+    <select name="dept" id="dept" class="text-input">
+        <option value="0"></option>
         <option value="grandstand">Grandstand Events</option>
         <option value="admission">Fair Admission</option>
         <option value="livestock">Livestock Showing</option>
         <option value="employment">Employment</option>
-    </datalist>
-    <label for="fname" value="fname">Full Name *</label>
+    </select>
+    <br>
+    <label for="fname" value="fname">First Name</label>
     <input class="text-input" type="text" id="fname" name="full-name" required>
-    <label for="email" value="email">Email Address *</label>
+    <label for="lname" value="lname">Last Name</label>
+    <input class="text-input" type="text" id="lname" name="last-name" required>
+    <br>
+    <label for="email" value="email">Email Address</label>
     <input class="text-input" type="email" id="email" name="email-address" required>
+    <br>
     <label for="query">What's on your mind?</label>
-    <input type="text-area" id="query" name="your_query" required>
-    <input class="join-button" type="submit" value="Submit">
-</form> -->
+    <br>
+    <textarea class="text-input" id="query" rows="10" col="400" name="query"></textarea>
+    <br>
+    <input class="button" type="submit" value="Submit">
         
         </section>
         <footer>

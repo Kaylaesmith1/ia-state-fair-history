@@ -256,6 +256,11 @@ height: 500px;
 footer {
     text-align: center;
     font-size: 180%;
+    border: 3px solid #012169;;
+    width: 40%;
+    margin: 15px auto;
+    border-radius: 30px;
+    background-color: #aec1e899;
 }
 
 footer li {
@@ -264,7 +269,8 @@ footer li {
 footer i {
     color: #012169;
     margin: 2%;
-    padding-left: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 
 }
 
@@ -287,7 +293,7 @@ footer i {
     border: 2px solid white;
     box-sizing: border-box;
     padding: 15px;
-    margin-top: 40px;
+    margin: 40px 0;
     border-radius: 15px;
     margin-left: 32px;
 }
@@ -297,20 +303,67 @@ footer i {
     clear: both;
     line-height: 1.5;
     column-gap: 3px;
-    /* opacity: 0.5; */
 
     /*switch butter cow and corn dogs image */
 
 }
 
 .form {
-    background-color: yellow;
-    z-index: 100000;
+    background-color: #fdd933;
+    color: #ED462F;
     margin-bottom: 50px;
-    width: 100%;
+    width: 50%;
+    height: 40%;
+    clear: both;
+    margin-left: 32px;
+    padding: 50px;
+    border-radius: 35px;
 }
 
-#department {
-    border: 1px solid black;
+.get-involved {
+margin-bottom: 20px;
 }
+
+form > label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #307b8e;
+}
+
+.text-input {
+    background: transparent;
+    color: #307b8e;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 2px solid #307b8e;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #ED462F;
+}
+
+#query {
+    height: 125px;
+}
+
+.button {
+    padding: 20px;
+    font-size: 115%;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    background-color: #ED462F;
+    color: white;
+    border-radius: 22px;
+}
+
+.button:hover {
+    color: #ED462F;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
 
