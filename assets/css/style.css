@@ -334,15 +334,23 @@ footer i {
 
 }
 
+ol {
+    padding: 20px;
+    color: #002169;
+    line-height: 18px;
+    font-size: 18px;
+}
+
 .form {
     background-color: #fdd933;
     color: #ED462F;
-    width: 50%;
+    /* width: 50%; */
+    width: 500px;
     height: 40%;
     clear: both;
     margin-left: 32px;
     /* margin: auto; */
-    padding: 50px;
+    padding: 30px 50px;
     border-radius: 35px;
     border: 3px solid white;
 
@@ -385,6 +393,7 @@ form > label {
     background-color: #ED462F;
     color: white;
     border-radius: 22px;
+    letter-spacing: 1px;
 }
 
 .button:hover {
