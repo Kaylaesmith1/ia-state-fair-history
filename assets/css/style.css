@@ -169,7 +169,7 @@ hr {
     margin-bottom: 15px;
 }
 
-ul li {
+.open-hours {
     list-style: none;
 }
 
@@ -329,9 +329,6 @@ footer i {
     clear: both;
     line-height: 1.5;
     column-gap: 3px;
-
-    /*switch butter cow and corn dogs image */
-
 }
 
 ol {
@@ -339,6 +336,48 @@ ol {
     color: #002169;
     line-height: 18px;
     font-size: 18px;
+}
+
+#whats-new {
+    padding: 12px;
+    color: #002169;
+    line-height: 18px;
+    font-size: 18px;
+}
+
+#new {
+    padding: 12px;
+    color: #002169;
+    line-height: 18px;
+    font-size: 18px;
+    list-style: none;
+}
+
+.cornhole, .healthy {
+    color: #002169;
+}
+
+.cornhole:hover, .healthy:hover {
+    color: #fdd933;
+}
+
+#cow {
+    font-size: 18px;
+}
+
+#hist-food p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#sticks {
+    list-style-type: none;
+    padding: 12px;
+    color: #002169;
+    line-height: 18px;
+    font-size: 18px;
+    margin-top: 8px;
+    font-family: 'Roboto Slab', serif;
 }
 
 .form {
