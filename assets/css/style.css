@@ -7,7 +7,7 @@
 }
 body {
     font-family: 'Lato', sans-serif;
-    font-weight: 300px;
+    font-weight: 300;
 }
 
 header a, .socials {
@@ -149,12 +149,12 @@ hr {
     margin: 5px 0;
 }
 
-.strong, #times {
+.strong, .times {
     font-size: 19px;
     font-weight: bolder;
 }
 
-#times, #activities li {
+.times, #activities li {
     margin-bottom: 15px;
 }
 
@@ -297,7 +297,7 @@ footer i {
     margin-left: 32px;
 }
 
-#history #hist-food {
+#history .hist-food {
     background-color: #69cb93;
     height: 460px;
     width: 22%;
@@ -336,7 +336,7 @@ ol {
     font-size: 18px;
 }
 
-#new {
+.new {
     padding: 12px;
     color: #002169;
     line-height: 18px;
@@ -352,16 +352,16 @@ ol {
     color: #fdd933;
 }
 
-#cow {
+.cow {
     font-size: 18px;
 }
 
-#hist-food p {
+.hist-food p {
     margin-top: 20px;
     font-size: 18px;
 }
 
-#sticks {
+.sticks {
     list-style-type: none;
     padding: 12px;
     color: #002169;
@@ -369,6 +369,10 @@ ol {
     font-size: 18px;
     margin-top: 8px;
     font-family: 'Roboto Slab', serif;
+}
+
+.facts {
+    margin-bottom: 18px;
 }
 
 .form {
@@ -482,7 +486,7 @@ form > label {
         width: 100%;
     }
 
-    #history div, #history #hist-food {
+    #history div, #history .hist-food {
         width: 43%;
     }
 
@@ -529,7 +533,7 @@ form > label {
         width: 100%;
     }
 
-    #history div, #history #hist-food {
+    #history div, #history .hist-food {
         width: 42%;
         height: 525px;
     }
@@ -549,7 +553,7 @@ form > label {
     padding: 30px 20px 15px 30px;
 }
 
-#history div, #history #hist-food {
+#history div, #history .hist-food {
     width: 82%;
     height: 450px;
     padding: 5px;
@@ -619,7 +623,7 @@ form > label {
         width: 100%;
     }
     
-    #history div, #history #hist-food {
+    #history div, #history .hist-food {
         width: 82%;
         height: 525px;
         padding: 5px;
