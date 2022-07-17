@@ -224,7 +224,7 @@ height: 500px;
 #location-text p {
     background-color: rgb(237, 70, 47, .7);
     color: white;
-    width: 60%;
+    /* width: 60%; */
     margin-left: 60px;
     margin-top: 45px;
     padding: 35px 30px 25px 30px;
@@ -239,6 +239,11 @@ height: 500px;
     padding-top: 20px;
     width: 41%;
     float: right;
+}
+
+#map-small {
+    width: 500px;
+    height: 400px;
 }
 
 footer {
@@ -280,7 +285,7 @@ footer i {
 
 #history div {
     background-color: #44abc7;
-    height: 450px;
+    height: 460px;
     width: 22%;
     float: left;
     text-align: center;
@@ -294,7 +299,7 @@ footer i {
 
 #history #hist-food {
     background-color: #69cb93;
-    height: 450px;
+    height: 460px;
     width: 22%;
     float: left;
     text-align: center;
@@ -448,8 +453,24 @@ form > label {
         padding: 0;
     }
 
+    #location-heading {
+        width: 94%;
+    }
+
+    #map-heading {
+        position: relative;
+        padding-top: 14px;
+        float: right;
+        padding-right: 205px;
+    }
+
     #map {
         margin-top: 10%;
+    }
+
+    #map-small {
+        height: 150px;
+        width: 300px;
     }
 
     #involved-photo {
@@ -466,10 +487,142 @@ form > label {
     }
 
     #images {
-        width: 80%;
+        width: 89%;
         column-count: 2;
         margin: 0 auto;
-        line-height: 2;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    header, #faircrowd, #location {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    #when-where {
+        width: 70%;
+        height: 1100px;
+        margin: 0 auto;
+    }
+
+    #center {
+        width: 100%;
+        float: right;
+        padding: 0;
+    }
+
+    #location-heading {
+        width: 100%;
+        height: 59%;
+    }
+
+    #map-heading {
+        position: relative;
+        padding-top: 14px;
+        float: right;
+        padding-right: 205px;
+    }
+
+    #history {
+        width: 100%;
+    }
+
+    #history div, #history #hist-food {
+        width: 42%;
+        height: 525px;
+    }
+
+    #images {
+        width: 45%;
+        column-count: 1;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    #location-text p {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 45px;
+    padding: 30px 20px 15px 30px;
+}
+
+#history div, #history #hist-food {
+    width: 82%;
+    height: 450px;
+    padding: 5px;
+}
+}
+
+@media screen and (max-width: 320px) {
+    header, #faircrowd, #location {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #main li {
+        display: block;
+        line-height: 40px;
+    }
+
+    #when-where {
+        width: 95%;
+        height: 1900px;
+        margin: 0 auto;
+    }
+
+    #left, #right {
+        width: 100%;
+        float: right;
+        padding: 0;
+    }
+
+    #center {
+        width: 100%;
+        float: right;
+        padding: 0;
+    }
+
+    #location-heading {
+        width: 100%;
+        height: 59%;
+    }
+
+    #location-text h2 {
+        height: 45px;
+        width: 81%;
+        font-size: 25px;
+    }
+
+    #location, #shadow {
+        height: 700px;
+    }
+
+    #map-heading {
+        position: relative;
+        padding-top: 14px;
+        float: right;
+        padding-right: 205px;
+    }
+
+    #map {
+        margin-top: 50%;
+        margin-left: 26px;
+    }
+
+    #join {
+        left: 34px;
+    }
+
+    #involved-photo, footer, #images {
+        width: 100%;
+    }
+    
+    #history div, #history #hist-food {
+        width: 82%;
+        height: 525px;
+        padding: 5px;
     }
 
 }
