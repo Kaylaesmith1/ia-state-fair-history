@@ -279,6 +279,7 @@ footer i {
 
 #involved-shadow {
     background-color: rgb(59, 62, 75, .65);
+    padding-bottom: 25px;
 }
 
 #history {
@@ -585,7 +586,7 @@ footer {
 }
 }
 
-/* Was max-width 320 then 430 */
+/* Was max-width 320 then 430*/
 @media screen and (max-width: 660px) {
     header, #faircrowd, #location {
         width: 100%;
@@ -607,10 +608,6 @@ footer {
         width: 100%;
         float: right;
         padding: 0;
-    }
-
-    #center {
-        /* display: none; */
     }
 
     footer {
@@ -676,10 +673,13 @@ footer {
         display: none;
     }
 
+    #map {
+        margin-left: 10px;
+    }
+
     #map-small {
         margin-top: 15px;
-        margin-left: 0 auto;
-        /* display: none; */
+        margin-left: 0;
     }
 }
 
