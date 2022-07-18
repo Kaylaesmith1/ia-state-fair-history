@@ -570,6 +570,9 @@ form > label {
     margin-top: 45px;
     padding: 30px 20px 15px 30px;
 }
+#location, #shadow {
+    height: 750px;
+}
 
 #map-small {
     margin-top: 15px;
@@ -630,11 +633,16 @@ footer {
         height: 700px;
     }
 
-    #map-heading {
+    /* #map-heading {
         position: relative;
         padding-top: 14px;
         float: right;
         padding-right: 205px;
+    } */
+    #map-heading {
+        position: relative;
+        padding-top: 14px;
+        margin-left: 110px;
     }
 
     #map {
@@ -661,6 +669,18 @@ footer {
         width: fit-content;
     }
 
+}
+
+@media screen and (max-width: 320px) {
+    #center {
+        display: none;
+    }
+
+    #map-small {
+        margin-top: 15px;
+        margin-left: 0 auto;
+        /* display: none; */
+    }
 }
 
 
