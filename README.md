@@ -1,8 +1,6 @@
-# Love Running
+# The Iowa State Fair
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
-
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+This Iowa State Fair website is intended to give Iowans, Americans and potential visitors from abroad an overview of one of the United States' most renowned agricultural events. This Midwest state boasts achievement in agriculture and industry, which this website hopes to display with the culmination of greater turnout for this year's Fair. In three separate pages, the user will learn what the Iowa State Fair is, its location, a brief history and fun facts, and a photo gallery of Fair favorites. There is also a signup form allowing the visitor to get involved with the Iowa State Fair. I hope, as the website creator and Iowa-native, that these pages teach the user a little bit about Iowa and entice them to come join the fun at the Iowa State Fair. 
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 

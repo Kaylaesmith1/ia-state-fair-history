@@ -10,12 +10,14 @@ body {
     font-weight: 300;
 }
 
-header, nav {
+header,
+nav {
     min-width: 300px;
 }
 
 
-header a, .socials {
+header a,
+.socials {
     text-decoration: none;
 }
 .active {
