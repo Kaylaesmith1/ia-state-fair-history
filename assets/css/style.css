@@ -181,6 +181,12 @@ hr {
     width: 60%;
 }
 
+#location-heading {
+    width: 45%;
+    display: inline-block;
+    margin: auto;
+}
+
 #activities li {
     list-style-type: circle;
     margin-left: 20px;
@@ -211,7 +217,7 @@ height: 500px;
 
 #location-heading {
     width: 50%;
-    float: left;
+    display:inline-block;
     padding: 0;
 }
 
@@ -236,18 +242,6 @@ height: 500px;
     line-height: 25px;
     font-size: 19px;
     letter-spacing: 2px;
-}
-
-#map-heading {
-    position: relative;
-    padding-top: 20px;
-    width: 41%;
-    float: right;
-}
-
-#map-small {
-    width: 500px;
-    height: 400px;
 }
 
 footer {
@@ -290,7 +284,7 @@ footer i {
 
 #history div {
     background-color: #44abc7;
-    height: 460px;
+    height: 500px;
     width: 22%;
     float: left;
     text-align: center;
@@ -304,7 +298,7 @@ footer i {
 
 #history .hist-food {
     background-color: #69cb93;
-    height: 460px;
+    height: 500px;
     width: 22%;
     float: left;
     text-align: center;
@@ -393,8 +387,8 @@ ol {
 }
 
 .get-involved {
-margin-bottom: 20px;
-font-size: 27px;
+    margin-bottom: 20px;
+    font-size: 27px;
 }
 
 form > label {
@@ -438,6 +432,17 @@ form > label {
     cursor: pointer;
 }
 
+@media screen and (max-width: 1360px) {
+    #images {
+        column-count: 2;
+        clear: both;
+        line-height: 1.5;
+        column-gap: 3px;
+        width: 80%;
+    }
+    
+}
+
 @media screen and (max-width: 1200px) {
     header, #faircrowd, #location {
         width: 65%;
@@ -466,22 +471,6 @@ form > label {
         width: 94%;
     }
 
-    #map-heading {
-        position: relative;
-        padding-top: 14px;
-        float: right;
-        padding-right: 205px;
-    }
-
-    #map {
-        margin-top: 10%;
-    }
-
-    #map-small {
-        height: 150px;
-        width: 300px;
-    }
-
     #involved-photo {
         width: 65%;
         margin: 0 auto;
@@ -502,8 +491,8 @@ form > label {
     }
 
 }
-/* This was 900 orig */
-@media screen and (max-width: 985px) {
+
+@media screen and (max-width: 1020px) {
 
     header, #faircrowd, #location {
         width: 60%;
@@ -512,7 +501,7 @@ form > label {
 
     #when-where {
         width: 70%;
-        height: 1100px;
+        height: 1250px;
         margin: 0 auto;
     }
 
@@ -527,19 +516,6 @@ form > label {
         height: 59%;
     }
 
-    #map-heading {
-        position: relative;
-        padding-top: 14px;
-        float: right;
-        padding-right: 205px;
-    }
-
-    #map-small {
-        height: 150px;
-        width: 300px;
-        /* display:none; */
-    }
-
     #history {
         width: 100%;
     }
@@ -547,7 +523,6 @@ form > label {
     #history div, #history .hist-food {
         width: 82%;
         max-height: 600px;
-        padding: 5px;
     }
 
     #images {
@@ -558,11 +533,16 @@ form > label {
 
     footer {
         font-size: 160%;
-        width: 95%;
+        width: 65%;
     }
 }
 
-
+@media screen and (max-width: 900px) {
+    #location-heading {
+        display: block;
+        width: 80%;
+    }
+}
 
 @media screen and (max-width: 820px) {
     #location-text p {
@@ -571,14 +551,9 @@ form > label {
     margin-top: 45px;
     padding: 30px 20px 15px 30px;
 }
+
 #location, #shadow {
     height: 750px;
-}
-
-#map-small {
-    margin-top: 15px;
-    margin-left: 15px;
-    /* display:none; */
 }
 
 footer {
@@ -586,7 +561,6 @@ footer {
 }
 }
 
-/* Was max-width 320 then 430*/
 @media screen and (max-width: 660px) {
     header, #faircrowd, #location {
         width: 100%;
@@ -630,23 +604,6 @@ footer {
         height: 700px;
     }
 
-    /* #map-heading {
-        position: relative;
-        padding-top: 14px;
-        float: right;
-        padding-right: 205px;
-    } */
-    #map-heading {
-        position: relative;
-        padding-top: 14px;
-        margin-left: 110px;
-    }
-
-    #map {
-        margin-top: 50%;
-        margin-left: 26px;
-    }
-
     #join {
         left: 34px;
     }
@@ -668,18 +625,9 @@ footer {
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
     #center {
         display: none;
-    }
-
-    #map {
-        margin-left: 10px;
-    }
-
-    #map-small {
-        margin-top: 15px;
-        margin-left: 0;
     }
 }
 
