@@ -60,26 +60,27 @@ In general terms, the features of this website serve two main purposes: to educa
 ![Sign Up](docs/form_mockup.png)
 
 - __Fair Photos__
+  - The final page of the website is a photo gallery of what a visitor to the Iowa State Fair would typically see. These range from this year's banner to prize-winning produce and livestock to food and crowds and of course, the Butter Cow. 
+  - With these colorful pictures, hopefully the user's interest is peaked and they will want to learn more about the Iowa State Fair and the state of Iowa itself.
 
 ![Photos](docs/fair_photos_mockup.png)
-
-  - The final page of the website is a photo gallery of what a visitor to the Iowa State Fair would typically see. These range from this year's banner to prize-winning produce and livestock to food and crowds and of course, the Butter Cow.
-   - With these colorful pictures, hopefully the user's interest is peaked and they will want to learn more about the Iowa State Fair and the state of Iowa itself.
 
 ### Features Left to Implement
 
 - Map on Homepage: I had originally included a Google Map on the homepage, which was ultimately a casualty of media queries that I couldn't get quite right. I would like to include a map in the future as it would be a vital reference to have for anyone visiting the Iowa State Fair.
-- Another aspect of media that would be beneficial to users would be a YouTube video of some of the Iowa State Fair's events. There are a plethora of activities at the Fair and it would be more interactive to show those through video rather than written media.
+- Embeded video: Another aspect of media that would be beneficial to users would be a YouTube video of some of the Iowa State Fair's events. There are a plethora of activities at the Fair and it would be more interactive to show those through video rather than written media.
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- The website itself was tested on Chrome, Safari and Firefox web browsers. It was also designed to be responsive on a range of devices with different widths. The images on the third page when using Safari on a laptop appear with more spacing than they do using Chrome. On this page, too, a slight horizontal scroll is needed on some smaller devices to view the entire image.
+- The social media links in the footer and the two hyperlinks in the history section of the second page were tested and work correctly. All open in new tabs.
+- The signup form was tested and, when filled out and submitted correctly, returns a congratulatory message noting that completion was successful. 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+![FormSubmit](docs/test_form_mockup.png)
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+- At the outset of troubleshooting, the footer only appeared visible on the first page, though the information was there and interactive (clickable icons). I found this was because I hadn't linked the fontawesome script on the other pages, the website was just using the html. This is fixed now and visible on all pages.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- I used metric measurements on the second page in describing the Butter Cow and in the Fun Facts section. In a professional setting, though this website's most direct audience would probably be from the United States and, therefore would better understand the imperial system, I chose to use the metric system for the benefit of the Code Institute reviewers who I assume are more familiar with the metric system. If I were planning to launch this website in Iowa or the United States, the values would be converted.
 
 
 ### Validator Testing 
