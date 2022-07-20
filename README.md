@@ -1,6 +1,6 @@
 # The Iowa State Fair
 
-This Iowa State Fair website is intended to give Iowans, Americans and potential visitors from abroad an overview of one of the United States' most renowned agricultural events. This Midwest state boasts achievement in agriculture and industry, which my website hopes to display.
+This Iowa State Fair website is intended to give Iowans, Americans and potential visitors from abroad an overview of one of the United States' most renowned agricultural events. This Midwest state boasts achievement in agriculture and industry, which this website hopes to showcase.
 
 In three separate pages, the user will learn what the Iowa State Fair is, its location, a brief history and fun facts, and a photo gallery of Fair favorites. There is also a signup form allowing the visitor to get involved with the Iowa State Fair. I hope, as the website creator and Iowa-native, that these pages teach users a little bit about Iowa and entice them to come join the fun at the Iowa State Fair. 
 
@@ -8,14 +8,14 @@ In three separate pages, the user will learn what the Iowa State Fair is, its lo
 
 ## Features 
 
-In general terms, the features of this website serve two main purposes: to educate visitors about the Iowa State Fair and to entice them to visit. A more detailed explanation of the features is below.
+In general terms, the features of this website serve two main purposes: to educate visitors about the Iowa State Fair and to persuade them to visit. A more detailed explanation of the features is below.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - The fully responsive navigation bar is included and identical on all three pages. Clicking each link will take the user to that page; clicking the left, Iowa State Fair text will return them to the homepage.
-  - Keeping the navigation bar the same on all pages, both in style and functionality will enable the user to navigate the pages easily and on various devices without having to click the back button or swipe left / right.
+  - The fully responsive navigation bar is included and identical on all three pages. Clicking each link will take the user to that page, while clicking the left, Iowa State Fair text will return them to the homepage.
+  - Keeping the navigation bar the same on all pages, both in style and functionality, will enable the user to browse through the pages easily and on various devices without having to click the back button or swipe left / right.
 
 ![NavBar](docs/nav_bar_mockup.png)
 
@@ -25,36 +25,36 @@ In general terms, the features of this website serve two main purposes: to educa
 
 ![LandingPage](docs/landing_page_mockup.png)
 
-- __When and Where Section
+- When and Where Section
 
   - The start of this section includes a sentence describing what, when and where the Iowa State Fair is and its importance on a state, national and international scale. 
-  - Immediately following, users can see dates and times of the 2022 Iowa State Fair as well as a short list of activities they can expect to find at the Fair. In the center, this year's Iowa State Fair logo appears to bifurcate the written information in the section.  
+  - Immediately following, users can see dates and times for the 2022 Iowa State Fair as well as a short list of activities they can expect to find at the Fair. In the center, this year's Iowa State Fair logo appears and bifurcates the written information in the section.  
 
 ![WhenWhere](docs/when_where_mockup.png)
 
 - __Location section__
 
-  - Here on a photo of the Iowa State Capitol, the user learns that the Fair takes place in Des Moines, Iowa (the capital city) and there are various modes of transport to arrive at the fairgrounds. The image is covered by an opaque shadow, thus ensuring the user is focused on the information text and not the photo. 
+  - Here on a photo of the Iowa State Capitol, the user learns that the Fair takes place in Des Moines, Iowa (the capital city) and there are various modes of transport to arrive at the fairgrounds. The image is covered by an opaque shadow, thus ensuring the user is focused on the informational text and not the photo. 
 
 ![Location](docs/location_mockup.png)
 
 - __The Footer__ 
 
   - In the footer section I've included links to four prominent social media sites for the Iowa State Fair. These are real websites that will give the user more information and the ability to follow the Iowa State Fair's social media.
-  - All links open to new tabs when clicked and turn red when hovered over, making them easily visible and user-friendly.
+  - All links open to new tabs when clicked and the icons turn red when hovered over, making them easily visible and user-friendly.
 
 ![Footer](docs/footer_mockup.png)
 
 - __History__
 
-  - The history section includes four columns: what's new, the butter cow, food on sticks and five fun facts. These different categories all provide important information for Fair-goers this year, both those returning and first-timers. 
+  - The history section includes four columns with different categories providing important information for Fair-goers this year, both those returning and first-timers. 
   - For website users that are hearing about the Iowa State Fair for the first time, this page will give them a little insight on the event. As such, there are two clickable links included in this section to give further explanation, each of which will open in a new tab. 
 
 ![History](docs/history_mockup.png)
 
 - __Get Involved Signup Form__
 
-  - The signup form includes a dropdown menu for the user to select a topic, followed by three more required fields. The final text box is for the user to detail how they would like to get involved with the Iowa State Fair in any capacity they see fit. Upon submission, a congratulatory message appears, letting the user know they have signed up successfully. The form URL was taken from the Code Institute Love Running project and aesthetically and informationally adapted for this project.
+  - The signup form includes a dropdown menu for the user to select a department, followed by three more required fields. The final text box is for the user to detail how they would like to get involved with the Iowa State Fair in any capacity they see fit. Upon submission, a congratulatory message appears, letting the user know they have signed up successfully. The form URL was taken from the Code Institute Love Running project and aesthetically and informationally adapted for this website.
 
 ![Sign Up](docs/form_mockup.png)
 
@@ -66,12 +66,14 @@ In general terms, the features of this website serve two main purposes: to educa
 
 ### Features Left to Implement
 
-- Map on Homepage: I had originally included a Google Map on the homepage, which was ultimately a casualty of media queries that I couldn't get quite right. I would like to include a map in the future as it would be a vital reference to have for anyone visiting the Iowa State Fair.
+- Map on Homepage: I had originally included a Google map on the homepage, which was ultimately a casualty of media queries that I couldn't get quite right. I would like to include a map in the future as it would be a helpful reference to have for anyone visiting the Iowa State Fair.
 - Embeded video: Another aspect of media that would be beneficial to users would be a YouTube video of some of the Iowa State Fair's events. There are a plethora of activities at the Fair and it would be more interactive to show those through video rather than written media.
 
 ## Testing 
 
-- The website itself was tested on Chrome, Safari and Firefox web browsers. It was also designed to be responsive on a range of devices with different widths. The images on the third page when using Safari on a laptop appear with more spacing than they do using Chrome. On this page, too, a slight horizontal scroll is needed on some smaller devices to view the entire image.
+- The website itself was tested on Chrome, Safari and Firefox web browsers using a laptop computer. It was also designed to be responsive on a range of devices, using the Responsive setting on Chrome DevTools to simulate sizes. 
+
+  The images on the third page when using Safari on a laptop appear with more spacing than they do using Chrome. On this page, too, a slight horizontal scroll is needed on some smaller devices to view the entire image.
 - The social media links in the footer and the two hyperlinks in the history section of the second page were tested and work correctly. All open in new tabs.
 - The signup form was tested and, when filled out and submitted correctly, returns a congratulatory message noting that completion was successful. 
 
@@ -79,9 +81,21 @@ In general terms, the features of this website serve two main purposes: to educa
 
 - At the outset of troubleshooting, the footer only appeared visible on the first page, though the information was there and interactive (clickable icons). I found this was because I hadn't linked the fontawesome script on the other pages, the website was just using the html. This is fixed now and visible on all pages.
 
-- I encountered an error when running the HTML validator on the second and third pages that stated I couldn't use unnamed sections. This was solved with help from the CI slack channels and, ultimately, with changing the section in question into a div. This will be kept in mind for future projects.
+- I encountered an error when running the HTML validator on the second and third pages that stated I couldn't use unnamed sections. This was solved with help from the CI slack channels and, ultimately, with changing the section in question into a div. This will be kept in mind for future projects. There are no errors now in the HTML validator on any of the three pages submitted.
 
-- I used metric measurements on the second page in describing the Butter Cow and in the Fun Facts sections. In a professional setting, this website's most direct audience would probably be from the United States and, therefore would better understand the imperial system but I chose to use the metric system for the benefit of the Code Institute reviewers who I assume are more familiar with metric measurements. If the website were launched in Iowa or the United States, the values would be converted.
+- I used metric measurements on the second page in describing the Butter Cow and in the Fun Facts sections. In a professional setting, this website's most direct audience would be from the United States and, therefore would probably better understand the imperial system but I chose to use the metric system for the benefit of the Code Institute reviewers who I assume are more familiar with metric measurements. If the website were launched in Iowa or the United States, the values would be converted.
+
+- To complete my testing phase, I ran each page through Lighthouse in Chrome DevTools, both desktop and mobile versions. The results are below:
+
+  Homepage (desktop and mobile)
+![Lighthouse](docs/lighthouse_index.png)
+![Lighthouse](docs/lighthouse_index_mobile.png)
+Get Involved page (desktop and mobile)
+![Lighthouse](docs/lighthouse_history.png)
+![Lighthouse](docs/lighthouse_history_mobile.png)
+Fair Photos page (desktop and mobile)
+![Lighthouse](docs/lighthouse_photos.png)
+![Lighthouse](docs/lighthouse_photos_mobile.png)
 
 
 ### Validator Testing 
@@ -101,13 +115,13 @@ To my knowledge, I have been able to identify and fix bugs that popped up throug
 
 That said, there is definitely room for improvement. Firstly, and perhaps most noticeably, with regard to the photos on the third page. 
 
-Using Safari on a laptop distorts the spacing. I chose to leave this as is because the images themselves aren't distorted. The spacing issue could be due to inadequate media queries, which would be a question of my coding ability more than a break in the web browser or technologies themselves. 
+Using Safari on a laptop distorts the spacing but I chose to leave this as-is because the images themselves aren't distorted. The spacing issue could be due to inadequate media queries, which would be a question of my coding ability more than a break in the web browser or technologies themselves. 
 
 Given that Chrome is usually the browser of choice, especially in the tech industry, I concentrated on ensuring the website was fully functional and aesthetically pleasing there before I focused on other browswers. As such, I've left the images as the appear with no annexed documentation for Safari. 
 
-Secondly, the photo in the landing section of the homepage might look a little blurry or pixilated. I deliberately chose and image that was slightly unclear and with more muted colors since I wasn't planning on overlaying an opacity as I do in other sections where text is over a photo. 
+Secondly, the photo in the landing section of the homepage might look a little blurry or pixilated. I deliberately chose an image that was slightly unclear and with more muted colors since I wasn't planning on overlaying an opacity as I do in other sections where text is over a photo. 
 
-This way, I would argue that the first glance is still bright and enticing but doesn't distract from the "Come to Des Moines, IA & Join the Fun!" bubble. At first glance, I wanted to engage the reader and urge them to investigate further.
+This way, I would argue that the first glance is still bright and alluring but doesn't distract from the "Come to Des Moines, IA & Join the Fun!" bubble. From the start, I wanted to engage the reader and urge them to investigate further.
 
 Thirdly, I am sure my CSS could be more concise. There are many aspects (margins, padding, etc.) that are the same in a few classes or ids with only one or two differences. If I can consolidate the similarities in the future, the code might be more readable and "cleaner".
 
@@ -122,7 +136,7 @@ I deployed this website to GitHub pages on the GitHub hosting platform following
 
   - Once in my personal GitHub repository for this project, I clicked the Settings cog button.
   - From there I clicked 'Pages' from the left side menu. 
-  - Next under 'Source' I selected the main branch and refreshed the page and a link to the live site was provided, indicating successful deployment.
+  - Next under 'Source' I selected the main branch,  refreshed the page and a link to the live site was provided, indicating successful deployment.
 
   ![Deployment](docs/github_pages_mockup.png)
 
@@ -131,21 +145,20 @@ The live link can be found here - https://kaylaesmith1.github.io/ia-state-fair-h
 
 
 ## Credits 
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- I would like to acknowledge the Iowa State Fair and credit the organization with the color scheme, photos,logo, and information displayed on this website. I do not own any of the content; this website was created strictly for educational purposes within the Code Institute project framework.
+
+- I would like to thank my mentor, Harry, and other students and alumni on slack for the pointers and valuable feedback they've given me throughout this process. I've learned some excellent tips and their support has been vital in being able to submit my first portfolio project.
+
+- The social media icons found in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+- I used Stack Overflow for general troubleshooting and, specifically, the background image opacity / repeat options.
+
+- The congratulatory pop-up that appears on the Get Involved page after filling out the form is also a product of Code Institute and was used solely to ensure the form worked correctly.
+
+- Lastly, I would like to credit Code Institute for my use of the zoom effect on the homepage. This code was taken from the Love Running walkthrough project and used for the same effect on this webpage. 
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+- The photos used on this website are from the [Iowa State Fair website](https://iowastatefair.org) and a Google search of 'Iowa State Fair'.
